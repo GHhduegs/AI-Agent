@@ -1,5 +1,4 @@
-#  Project  name
-Ai-agent
+# AI-Agent
 
 ## Description
 This AI Agent project allows users to interact with an AI through a web-based interface. 
@@ -15,6 +14,7 @@ This project was developed as part of the Labmentix Internship submission.
 - Easily deployable via Docker (optional)
 
 ## Project Structure
+```text
 AI-Agent-Labmentix/
 │
 ├── web-ui/             # Frontend files (HTML, CSS, JS)
@@ -26,37 +26,46 @@ AI-Agent-Labmentix/
 ├── docker-compose.yml  # Docker Compose configuration
 ├── README.md           # Project description
 └── other configuration files (.env, supervisord.conf, etc.)
-- Shows **how your project files are organized**.  
-- Helps Labmentix quickly find important files like `web-ui`, `src`, and `requirements.txt`.
 
----
+1)How to Run
 
-### **5. How to Run**
-## How to Run
-1. Clone the repository and navigate to the folder:
+Clone the repository and navigate to the folder:
 
 git clone https://github.com/yourusername/AI-Agent-Labmentix.git
 cd AI-Agent-Labmentix
 
-Install dependencies:
-pip install -r requirements.txt
+2)Install dependencies:
 
 pip install -r requirements.txt
+
+3)Run the backend server (if applicable):
+
 python src/main.py
 
+4)Open the web interface in a browser:
 
-Open the web interface in a browser:
 open web-ui/index.html
 
+5)Run with Docker
 
-### **6. Optional: Run with Docker**
+If Docker is installed, you can start the project with:
 
-## Optional: Run with Docker
 docker-compose up
 
 
-### **7. Author**
-## Author
-Yuvaraju Jinka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
